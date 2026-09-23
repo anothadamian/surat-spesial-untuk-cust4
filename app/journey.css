@@ -237,6 +237,10 @@ button:focus-visible, input:focus-visible, textarea:focus-visible { outline: 3px
 .polaroid-3 { transform: rotate(-1deg); }
 .polaroid-4 { transform: translateY(18px) rotate(2.5deg); }
 
+@media (min-width: 761px) {
+  .polaroid-front img { object-fit: contain; object-position: center; background: #f3eeeb; }
+}
+
 .envelope-story { display: flex; flex-direction: column; align-items: center; justify-content: center; background: linear-gradient(180deg, transparent, color-mix(in srgb, var(--glow) 22%, transparent), transparent); }
 .envelope-row { display: grid; width: min(900px, 100%); grid-template-columns: repeat(3, 1fr); gap: 18px; }
 .love-envelope { position: relative; min-height: min(21vh, 190px); padding: 25px 22px 18px; overflow: hidden; border: 1px solid color-mix(in srgb, var(--accent) 20%, transparent); border-radius: 22px; color: var(--ink); background: color-mix(in srgb, white 86%, var(--soft)); box-shadow: 0 18px 45px rgba(71,35,47,.1); }
