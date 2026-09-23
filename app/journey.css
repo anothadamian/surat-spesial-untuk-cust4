@@ -541,7 +541,7 @@ button:focus-visible, input:focus-visible, textarea:focus-visible { outline: 3px
   .polaroid-deck { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 25px 13px; }
   .flip-polaroid { height: min(25vh, 215px); }
   .polaroid-front, .polaroid-back { padding: 8px; }
-  .polaroid-front img { object-fit: contain; object-position: center; background: #f3eeeb; }
+  .polaroid-front img { object-fit: cover; object-position: center; }
   .polaroid-front small { padding-top: 9px; font-size: 13px; }
   .polaroid-back { padding: 15px; }
   .polaroid-back p { font-size: 18px; }
